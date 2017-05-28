@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IMC {
+public class CalculoIndiceMassaCorporea {
 	
 	public static void main(String[] args) {
 		
