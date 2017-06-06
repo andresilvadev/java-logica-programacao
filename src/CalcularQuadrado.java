@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthSeparatorUI;
-
 public class CalcularQuadrado {
 	
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
+		
 		System.out.print("Digite um numero: ");
 		
 		Integer numero = scanner.nextInt();
@@ -14,6 +13,8 @@ public class CalcularQuadrado {
 		Integer numeroAoQuadrado = numero * numero;
 		
 		System.out.println("O valor do numero: " + numero + " é " + numeroAoQuadrado + " elevado ao quadrado.");
+		
+		scanner.close();
 		
 	}
 }
