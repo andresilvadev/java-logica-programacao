@@ -28,5 +28,12 @@ Segue a lista completa dos arquivos de estudo com seus respectivos conceitos:
 * [Calculando tabuada e alterando calculadora](https://github.com/andresilvadev/logica-programacao/commit/172b0535ab1f05bd6421ceaaddd2cb62d2067a03)
 * [Estoque mínimo](https://github.com/andresilvadev/logica-programacao/commit/625cc198f39627fb927096c333fdcbaf18551434)
 * [Método de instancia que retorna a necessidade de repor o estoque](https://github.com/andresilvadev/logica-programacao/commit/dfc6c93869eb96efa1255bf7be661bcd5df5fe2e)
-
+* [Encapsulamento](https://github.com/andresilvadev/logica-programacao/commit/6ffe46f7e1478054f0aec48c1cb8bf6e075393a4)
+* [Gravando dados em arquivo de texto](https://github.com/andresilvadev/logica-programacao/commit/44f5c5164f446053f703b340dcd81bc274f97c3c)
+* [Lendo dados em arquivo de texto](https://github.com/andresilvadev/logica-programacao/commit/b8ce013d30b381b1f08374b61132612452974606)
+* [Envio de e-mails com libs de terceiros](https://github.com/andresilvadev/logica-programacao/commit/a65d8a34645afac4f964d3006ef7ec2c8426e92f)
+* [Enviando dados de um arquivo de texto via email](https://github.com/andresilvadev/logica-programacao/commit/67d6bab0b5fb1d5a0a5981b71e4d7c76c404b365)
+* [Criando uma lista dinamica](https://github.com/andresilvadev/logica-programacao/commit/7614d92b0ea25c2069bd6132af04df9ee97e9835)
+* [Removendo elementos da lista](https://github.com/andresilvadev/logica-programacao/commit/aef87f2e70f07a63ffa03aff15b3bf649b75b539)
+* [Ordenando lista](https://github.com/andresilvadev/logica-programacao/commit/32b3dd790844736041658d61edd3eb1ba896917d)
 * [Palavras reservadas no Java](https://github.com/andresilvadev/logica-programacao/commit/194508b1c587098b1e63755c141e42e648ee4980)
