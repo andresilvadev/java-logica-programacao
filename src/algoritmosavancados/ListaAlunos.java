@@ -59,4 +59,35 @@ public class ListaAlunos {
 		tamanhoLista --;
 		lista[tamanhoLista] = null;
 	}
+	
+	void ordenar() {
+		for (int i = 1; i < tamanhoLista; i ++ ) {
+			Aluno alunoPosicaoBase = lista[i];
+			int indicePosicaoBase = i;
+			
+			while (indicePosicaoBase > 0) {
+				int indicePosicaoAnterior = indicePosicaoBase -1;
+				Aluno alunoPosicaoAnterior = lista[indicePosicaoAnterior];
+				
+				Boolean alunoPosicaoAnteriorVemDepoisDe = alunoPosicaoAnterior == null || alunoPosicaoAnterior.vemDepoisDe(alunoPosicaoBase);
+								
+				if (alunoPosicaoAnteriorVemDepoisDe) {
+					lista[indicePosicaoBase] = lista[indicePosicaoAnterior];
+					
+					indicePosicaoBase --;
+				}else {
+					break;
+				}
+			}
+			
+			lista[indicePosicaoBase] = alunoPosicaoBase;
+		}
+	}
+	
 }
+
+
+
+
+
+
