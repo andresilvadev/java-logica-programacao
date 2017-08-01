@@ -32,4 +32,31 @@ public class ListaAlunos {
 		
 		tamanhoLista ++;
 	}
+	
+	void remover(Aluno aluno) {
+		for(int i = 0; i < tamanhoLista; i ++) {
+			
+			Aluno a = lista[i];
+			
+			if(a != null && a.equals(aluno)) {
+				// aqui eu removo o aluno do array
+				remover(i);
+				break;
+			}else if(a == null && aluno == null) {
+				remover(i);
+				break;
+			}
+		}
+	}
+	
+	void remover (int indice) {
+		int indiceInicial = indice + 1;
+		
+		for (int i = indiceInicial; i < tamanhoLista; i ++) {
+			lista[i - 1] = lista[i];
+		}
+		
+		tamanhoLista --;
+		lista[tamanhoLista] = null;
+	}
 }

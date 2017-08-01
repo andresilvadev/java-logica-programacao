@@ -10,21 +10,39 @@ public class AlgoritmoAvancado {
 		aluno.nome = "Jon";		
 		lista.adicionar(aluno);
 		
-		aluno = new Aluno();
-		aluno.nome = "Sansa";		
-		lista.adicionar(aluno);
+		Aluno aluno2 = new Aluno();
+		aluno2.nome = "Sansa";		
+		lista.adicionar(aluno2);
 		
-		aluno = new Aluno();
-		aluno.nome = "Brandon";		
-		lista.adicionar(aluno);
+		Aluno aluno3 = new Aluno();
+		aluno3.nome = "Brandon";		
+		lista.adicionar(aluno3);
 		
-		aluno = new Aluno();
-		aluno.nome = "Arya";		
-		lista.adicionar(aluno);
+		Aluno aluno4 = new Aluno();
+		aluno4.nome = "Arya";		
+		lista.adicionar(aluno4);
 		
 		for(int i = 0; i < lista.tamanho(); i ++) {
 			Aluno a = lista.obter(i);
-			System.out.println("Aluno: " + a.nome);
+			if(a != null) {
+				System.out.println("Aluno: " + a.nome);	
+			}else {
+				System.out.println("Aluno: Sem nome");
+			}
+			
+		}
+		
+		System.out.println("---------------------------------");
+		
+		lista.remover(aluno3);
+		
+		for(int i = 0; i < lista.tamanho(); i ++) {
+			Aluno a = lista.obter(i);
+			if(a != null) {
+				System.out.println("Aluno: " + a.nome);	
+			}else {
+				System.out.println("Aluno: Sem nome");
+			}
 		}
 	}
 
